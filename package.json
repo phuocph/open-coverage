@@ -2,12 +2,12 @@
 	"name": "open-coverage",
 	"displayName": "Open Coverage",
 	"description": "Open the index.html for simplecov(https://github.com/simplecov-ruby/simplecov) ruby gem",
-  "version": "0.0.1",
-  "publisher": "phuocph",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/phuocph/open-coverage"
-  },
+	"version": "1.0.0",
+	"publisher": "phuocph",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/phuocph/open-coverage"
+	},
 	"engines": {
 		"vscode": "^1.50.0"
 	},
@@ -24,14 +24,14 @@
 				"command": "open-coverage.open",
 				"title": "Open Coverage: Open"
 			}
-    ],
-    "keybindings": [
-      {
-        "command": "open-coverage.open",
-        "key": "ctrl+a ctrl+s",
-        "mac": "cmd+a cmd+s"
-      }
-    ]
+		],
+		"keybindings": [
+			{
+				"command": "open-coverage.open",
+				"key": "ctrl+a ctrl+s",
+				"mac": "cmd+a cmd+s"
+			}
+		]
 	},
 	"scripts": {
 		"lint": "eslint .",
