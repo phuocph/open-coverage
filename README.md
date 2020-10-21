@@ -6,7 +6,9 @@ Open the index.html for [simplecov](https://github.com/simplecov-ruby/simplecov)
 
 ## Key bindings
 
-`Cmd + A, Cmd + S`
+Windows: `Shift+Ctrl+C`
+
+Mac: `Shift+Cmd+C`
 
 ## Requirements
 
@@ -15,6 +17,6 @@ This prerequisite for this extension is [open in browser](https://marketplace.vi
 
 ## Release Notes
 
-### 1.0.0
+### 1.0.2
 
-Initial release of Open Coverage
+Update README key bindings
