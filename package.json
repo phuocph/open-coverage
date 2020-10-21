@@ -2,7 +2,7 @@
 	"name": "open-coverage",
 	"displayName": "Open Coverage",
 	"description": "Open the index.html for simplecov(https://github.com/simplecov-ruby/simplecov) ruby gem",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "phuocph",
 	"repository": {
 		"type": "git",
@@ -28,8 +28,8 @@
 		"keybindings": [
 			{
 				"command": "open-coverage.open",
-				"key": "ctrl+a ctrl+s",
-				"mac": "cmd+a cmd+s"
+				"key": "shift+ctrl+c",
+				"mac": "shift+cmd+c"
 			}
 		]
 	},
